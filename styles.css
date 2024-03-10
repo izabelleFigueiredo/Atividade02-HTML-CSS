@@ -1,0 +1,35 @@
+.div {
+        border-radius: 50px;            /*borda redonda */
+        text-align: center;             /*alinhar o texto */
+        display: flex;                  /*alinha todos os elementos inicialmente, antes das outras propriedades que poderao redimensionar */
+        align-items: center;            /* alinha as divs no centro vertical*/
+        justify-content: center;    /* alinha horizontal */
+    }
+    .divA {
+        background-color: #65c58dbb;
+        height: 500px;
+        width: 500px;
+        border: 2px solid black;
+    }
+    .divB {
+        background-color: #65c58d;
+        height: 40%;
+        width: 60%;
+        border-top-left-radius: 10px;
+    }
+    .texto {
+        font-size: 20px;
+        font-family:courier;
+    }
+    .divD {
+        width: 80vw;
+        height: 80vw;
+        background-color: #ee5f838f;
+        border: 2px solid black;
+    }
+    .divE {
+        width: 95%;
+        height: 40%;
+        background-color: #ee5f82;
+        border-top-left-radius: 10px;
+    }

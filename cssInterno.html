@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 02 - PI - CSS Interno</title>
+</head>
+<style>
+    .div {
+        border-radius: 50px;            /*borda redonda */
+        text-align: center;             /*alinhar o texto */
+        display: flex;                  /*alinha todos os elementos inicialmente, antes das outras propriedades que poderao redimensionar */
+        align-items: center;            /* alinha as divs no centro vertical*/
+        justify-content: center;        /* alinha horizontal */
+    }
+    .divA {
+        background-color: #cabcad;
+        height: 500px;
+        width: 500px;
+    }
+    .divB {
+        background-color: #c59f65;
+        height: 50%;
+        width: 50%;
+    }
+    .texto {
+        font-size: 20px;
+        font-family: gill sans;
+    }
+    .divD {
+        width: 50vw;
+        height: 50vw;
+        background-color: #b59ddb;
+    }
+    .divE {
+        width: 75%;
+        height: 75%;
+        background-color: #955ce0;
+    }
+</style>
+
+<body>
+    <div class="divA div">
+        <div class="divB div">
+            <p class="texto">Eu sou um parágrafo filho da div B e neto da div A, e essa página foi feita utilizando css
+                interno!</p>
+        </div>
+    </div>
+    <div class="divD div">
+        <div class="divE div">
+            <p class="texto">Parágrafo alinhado dentro de uma div que está dentro de outra div.</p>
+        </div>
+    </div>
+</body>
+</html>
